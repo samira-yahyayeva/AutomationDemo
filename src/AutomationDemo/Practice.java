@@ -24,5 +24,10 @@ public class Practice
         kanza.setTitle("enjoy the silence");
         kanza.play();
 
+        Song samira =new Song();
+        samira.setTitle("Leather Teeth");
+        samira.setArtist("Carpenter Brut");
+        samira.play();
+
     }
 }
