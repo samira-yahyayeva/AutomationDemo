@@ -13,5 +13,12 @@ public class Practice
         kate.setArtist("Depeche Mode");
         kate.setTitle("enjoy the silence");
         kate.play();
+
+        Song mert = new Song();
+        mert.setArtist("Depeche Mode");
+        mert.setTitle("enjoy the silence");
+        mert.play();
+
+
     }
 }

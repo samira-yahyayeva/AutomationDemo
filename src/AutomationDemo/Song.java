@@ -21,4 +21,8 @@ public class Song
         SoundPlayer.playSound(artist, title);
     }
 
+    public void playAgain() throws InterruptedException
+    {
+        SoundPlayer.playSound(artist, title);
+    }
 }
