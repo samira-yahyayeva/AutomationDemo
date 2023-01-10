@@ -19,6 +19,10 @@ public class Practice
         mert.setTitle("enjoy the silence");
         mert.play();
 
+        Song kanza = new Song();
+        kanza.setArtist("Depeche Mode");
+        kanza.setTitle("enjoy the silence");
+        kanza.play();
 
     }
 }
