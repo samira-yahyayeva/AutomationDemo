@@ -13,6 +13,7 @@ public class SoundPlayer
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
         WebElement search = driver.findElement(By.xpath(PageElements.search));
+
         Thread.sleep(1000);
         search.sendKeys((artist +" "+title));
         Thread.sleep(1000);
@@ -20,7 +21,7 @@ public class SoundPlayer
         Thread.sleep(3000);
 
         driver.findElement(By.xpath(PageElements.firstSearchResult)).click();
-        Thread.sleep(60000);
+        Thread.sleep(50000);
         driver.quit();
     }
 }
